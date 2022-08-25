@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px 10px;
+}
+
+.center{
+    max-width: 1500px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.menu-container{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+
+.menu-container a:hover{
+    color: #7b0200;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.main{
+    position: relative;
+    min-height: 980px;
+    background-image: url(img/fundo\ v2.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
