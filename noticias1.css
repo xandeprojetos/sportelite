@@ -1,0 +1,24 @@
+.noticia-wrapper-1{
+    display: flex;
+    width: 100%;
+}
+
+.noticia-destaque{
+    width: 50%;
+    padding-top: 20%;
+    background-color: #222;
+    border: 2px solid white;
+    position: relative;
+    background-image: url(img/fabio-santos-romeu-no-corinthians_l_corinthians.webp);
+    background-repeat: no-repeat;
+}
+
+.noticia-destaque-single{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}

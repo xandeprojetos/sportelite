@@ -43,12 +43,5 @@ header{
     width: 50%;
 }
 
-.main{
-    position: relative;
-    min-height: 980px;
-    background-image: url(img/fundo\ v2.png);
-    background-size: cover;
-    background-position: center;
-    
-}
+
 
