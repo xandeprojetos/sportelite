@@ -4,13 +4,15 @@
 }
 
 .noticia-destaque{
-    width: 50%;
+    width: 34%;
     padding-top: 20%;
-    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.4);
     border: 2px solid white;
     position: relative;
     background-image: url(img/fabio-santos-romeu-no-corinthians_l_corinthians.webp);
     background-repeat: no-repeat;
+    background-blend-mode: darken;
+    border-radius: 10px;
 }
 
 .noticia-destaque-single{
@@ -21,4 +23,92 @@
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.noticia-destaque-single h3{
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50%;
+}
+
+.outras-noticias-1{
+    display: flex;
+    width: 22%;
+    flex-wrap: wrap;
+  
+    
+}
+
+.outra-noticia-1-single{
+    width: 50%;
+    padding-top: 30%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    background-color:rgba(0, 0, 0, 0.6); 
+    position: relative;
+    background-blend-mode: darken;
+    background-image: url(img/calleri.webp);
+    border-radius: 10px;
+}
+
+.outra-noticia-1-single h3{
+    color: white;
+    padding: 10px;
+    
+}
+
+.outra-noticia-2-single{
+    width: 50%;
+    padding-top: 30%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    background-color:rgba(0, 0, 0, 0.4); 
+    position: relative;
+    background-blend-mode: darken;
+    background-image: url(img/brasil.webp);
+    border-radius: 10px;
+}
+
+.outra-noticia-2-single h3{
+    color: white;
+    padding: 10px;
+}
+
+.outra-noticia-3-single{
+    width: 50%;
+    padding-top: 30%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    background-color:rgba(0, 0, 0, 0.4); 
+    position: relative;
+    background-blend-mode: darken;
+    background-image: url(img/arrasca.webp);
+    border-radius: 10px;
+}
+
+.outra-noticia-3-single h3{
+    color: white;
+    padding: 10px;
+}
+
+.outra-noticia-4-single{
+    width: 50%;
+    padding-top: 30%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    background-color:rgba(0, 0, 0, 0.6); 
+    position: relative;
+    background-blend-mode: darken;
+    background-image: url(img/luan.webp);
+    border-radius: 10px;
+}
+
+.outra-noticia-4-single h3{
+    color: white;
+    padding: 10px;
 }
